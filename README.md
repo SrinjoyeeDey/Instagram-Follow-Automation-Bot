@@ -81,14 +81,6 @@ And boom! The bot logs in, finds the followers of your target account, scrolls t
 
 ---
 
-🧩 Demo Snapshot
-
-
-
-See it in action — the bot smoothly handles the Instagram followers popup and gets to work!
-
-
----
 
 ⚠ Warning
 
