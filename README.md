@@ -93,13 +93,6 @@ Use it responsibly to avoid getting your account flagged or banned.
 
 ---
 
-📃 License
-
-This project is licensed under the MIT License.
-Feel free to improve and customize it!
-
-
----
 
 ❤ Made with Love by Srinjoyee
 
