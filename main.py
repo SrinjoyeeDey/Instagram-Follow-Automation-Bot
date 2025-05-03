@@ -4,9 +4,9 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import ElementClickInterceptedException
 import time
 
-SIMILAR_ACCOUNT="chefsteps"
-USERNAME="fammi_es"
-PASSWORD="Tinnachutki"
+SIMILAR_ACCOUNT="The Account"
+USERNAME="YOUR INSTAGRAM USERNAME"
+PASSWORD="YOUR INSTAGRAM PASSWORD"
 
 
 class InstaFollower:
@@ -27,8 +27,6 @@ class InstaFollower:
         time.sleep(2.1)
         pass_word.send_keys(PASSWORD,Keys.ENTER)
 
-        # logIn=self.driver.find_element(By.XPATH,value="//div[contains(text(), 'Log in')]")
-        # logIn.click()
         time.sleep(7)
         try:
             save_or_not=self.driver.find_element(By.XPATH,"//button[contains(text(), 'Not now')]")
@@ -70,9 +68,6 @@ class InstaFollower:
                 except:
                     pass
 
-
-
-    # html/body/div[7]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/div[1]/div/div[1]/div/div/div
 
 bot=InstaFollower()
 
